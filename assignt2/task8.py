@@ -9,3 +9,4 @@ for m in str:
         pass
 print("letters", l)
 print("digits", n)
+

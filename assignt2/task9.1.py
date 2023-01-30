@@ -1,5 +1,5 @@
-import random
-n = random.randrange(1,100)
+
+n = 60
 var=""
 cont=input("do you want to guess type yes or no"+var)
 if cont=="yes":

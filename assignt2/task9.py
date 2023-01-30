@@ -1,5 +1,5 @@
-import random
-n = random.randrange(1,100)
+
+n = 60
 guess = int(input("Enter any number: "))
 while n!= guess:
     if guess < n:

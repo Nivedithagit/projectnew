@@ -7,7 +7,12 @@ thisdict = {
   "c": "test",
 }
 ##2. Create a variable of type complex and swap it with another variable of type integer.
+x=3+5j
+y=5
+x, y=y, x
 
+print("after swapping")
+print(x,y)
 
 ##3.Swap two numbers using a third variable and do the same task without using any third variable.
 #with third variable:
@@ -36,15 +41,17 @@ print(x, y)
 
 ##Python version 2:
 
-x=input("enter a number")
-y=input("eneter a string")
-z=input("enter a float")
+x = raw_input("Enter a string: ") #String input
+x = int(raw_input("Enter a number: ")) #integer input
+x = float(raw_input("Enter a float : ")) #float input
 
-print(x,y,z)
+print x,y,z
 #python version 3:
 x=int(input("enter a number"))
 y=input("enter a string")
 z=float(input("enter a float"))
+
+print(x,y,z)
 
 ##5 Write a program to complete the task given below:
 ##Ask users to enter any 2 numbers in between 1-10 , add the two numbers and keep the sum in
@@ -54,7 +61,7 @@ x=input("enter a number between 1 and 10")
 y=input("enter a number between 1 and 10")
 z=x+y
 a=z+30
-print("outout is" +a)
+print("output is" +a)
 
 ##6. Write a program to check the data type of the entered values.
 ##HINT: Printed output should say - The data type of the input value is : int/float/string/etc
@@ -63,7 +70,9 @@ print("the data type of the input value is :" type(x))
 
 ##7. Create Variables using formats such as Upper CamelCase, Lower CamelCase, SnakeCase and
 ##UPPERCASE.
-
+x=helloWorld - lowerCamel
+y=Hello World - UpperCamel (Pascal Case)
+z=hello_world - snake case
 
 ##8 If one data type value is assigned to ‘a’ variable and then a different data type value is assigned to ‘a’
 ##again. Will it change the value? If Yes then Why?
